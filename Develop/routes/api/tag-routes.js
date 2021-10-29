@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Tag, Product, ProductTag } = require('../../models');
+const { Tag } = require('../../models');
 
 // The `/api/tags` endpoint
 
@@ -8,7 +8,7 @@ router.get('/', (req, res) => {
   // be sure to include its associated Product data
   try {
      const tagData = await Tag.findAll({
-       include: [{model: Product}]
+       include: [{modelName: Tag}],
      });
      res.status(200).json(tagData);
   } catch (err) {
@@ -22,9 +22,9 @@ router.get('/', (req, res) => {
   router.get('/:id', async (req, res) => {
     try {
       const tagData = await Tag.findOne(req.params.id, {
-        include: [{model: Product}]
+        include: [{modelName: Tag}]
       });
-      if (!categoryData) {
+      if (!tagData) {
         res.status(404).json({ message: 'No tag found with this id!'});
         return;
       }
@@ -65,7 +65,7 @@ router.delete('/:id', (req, res) => {
   // delete on tag by its `id` value
   const tagData = await Tag.destroy({
     where: {
-      tag_id: req.params.tag_id,
+      tag_id: req.params.id,
     },
   });
   return res.json(tagData)
