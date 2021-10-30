@@ -38,7 +38,7 @@ Node.js
 https://drive.google.com/file/d/1S_k7tg85kz9zA3Xj2VOEDllULPF0Ft_a/view
 <br />
 
-Direct link to site:
+
 ## License
 ![badge](https://img.shields.io/badge/license-MIT-ff69b4)
 <br />
