@@ -1,5 +1,5 @@
 const { Tag } = require('../models');
-const sequelize = require('./config/connection');
+
 const tagData = [
   {
     tag_name: 'rock music',
