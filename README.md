@@ -1,8 +1,18 @@
 # E-Commerce-Back-End 
+----
 
 ![badge](https://img.shields.io/badge/license-MIT-ff69b4)
 
+## Table of Contents
+------
+- [Description](#description)
+- [Technology used](#technology-used)
+- [Usage](#usage)
+- [License](#license)
+- [Questions](#questions)
+
 ## Description
+------
 ```
 GIVEN a functional Express.js API
 WHEN I add my database name, MySQL username, and MySQL password to an environment variable file
@@ -16,35 +26,26 @@ THEN the data for each of these routes is displayed in a formatted JSON
 WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
 THEN I am able to successfully create, update, and delete data in my database
 ```
-
-
-
-## Table of Contents
-
-- [Description](#description)
-- [Technology used](#technology-used)
-- [Usage](#usage)
-- [License](#license)
-- [Questions](#questions)
-
 ## Technology used
-HTML 
-CSS 
-JavaScript
-Node.js
+-------
+``HTML ``
+``CSS`` 
+``JavaScript``
+``Node.js``
 
 ## Usage
+-------
 https://watch.screencastify.com/v/ISRGuEECetqvrjcLx2UI
-
-<br />
 
 
 ## License
+------------
 ![badge](https://img.shields.io/badge/license-MIT-ff69b4)
-<br />
+
 This application is covered by the MIT license. 
 
 ## Questions
-Find me on GitHub: [Jessicaga9410](https://github.com/Jessica9410)<br />
-<br />
-Email me with any questions: Jessicaga9410@gmail.com<br /><br />
+------
+Find me on GitHub: [Jessicaga9410](https://github.com/Jessicaga9410)
+
+Email me with any questions: Jessicaga941@gmail.com
